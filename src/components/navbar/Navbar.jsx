@@ -1,0 +1,11 @@
+import React from 'react'
+
+const Navbar = () => {
+    return (
+        <>
+            <nav _ngcontent-hsv-c23 className="navbar navbar-expand-lg navbar-light bg-white mb-3 fixed-top"><div _ngcontent-hsv-c23 className="container"><a _ngcontent-hsv-c23 className="navbar-brand d-flex" href="/"><h3 _ngcontent-hsv-c23 style={{fontWeight: 'bold'}}> NFT project</h3></a><button _ngcontent-hsv-c23 type="button" className="navbar-toggler"> ☰ </button><div _ngcontent-hsv-c23 className="navbar-collapse collapse" style={{}}><ul _ngcontent-hsv-c23 className="navbar-nav" style={{marginLeft: '4%'}}><li _ngcontent-hsv-c23 className="nav-item"><a _ngcontent-hsv-c23 routerlink="/" className="nav-link text-dark" href="/" style={{marginRight: '40px', fontWeight: 'bold', cursor: 'pointer'}}>home</a></li><li _ngcontent-hsv-c23 className="nav-item"><a _ngcontent-hsv-c23 routerlink="/" fragment="about" className="nav-link text-dark" href="/#about" style={{marginRight: '40px', fontWeight: 'bold', cursor: 'pointer'}}>About</a></li><li _ngcontent-hsv-c23 className="nav-item"><a _ngcontent-hsv-c23 routerlink="/" fragment="features" className="nav-link text-dark" href="/#features" style={{marginRight: '40px', fontWeight: 'bold', cursor: 'pointer'}}>Features</a></li><li _ngcontent-hsv-c23 className="nav-item"><a _ngcontent-hsv-c23 routerlink="/" fragment="nfts" className="nav-link text-dark" href="/#nfts" style={{marginRight: '40px', fontWeight: 'bold', cursor: 'pointer'}}>Top NFTs</a></li><li _ngcontent-hsv-c23 className="nav-item"><a _ngcontent-hsv-c23 routerlink="/" fragment="team" className="nav-link text-dark" href="/#team" style={{marginRight: '40px', fontWeight: 'bold', cursor: 'pointer'}}>Team</a></li><li _ngcontent-hsv-c23 className="nav-item"><a _ngcontent-hsv-c23 routerlink="/" fragment="contact" className="nav-link text-dark" href="/#contact" style={{marginRight: '40px', fontWeight: 'bold', cursor: 'pointer'}}>Contact</a></li>{/**/}</ul><div _ngcontent-hsv-c23 className="col-sm d-flex align-items-center justify-content-end d-none-nav"><button _ngcontent-hsv-c23 style={{padding: '10px 20px', border: 'none', backgroundColor: 'rgb(45, 115, 255)', color: 'white', borderRadius: '14px', fontWeight: 'bold'}}> Connect Wallet </button></div></div></div></nav>
+        </>
+    )
+}
+
+export default Navbar
