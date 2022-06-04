@@ -1,20 +1,16 @@
 import './App.css';
 import{
   Navbar,
-  Banner,
-  About,
-  Roadmap,
-  Features,
-  TopNfts,
-  Team,
-  Contact,
   Footer
 } from './components/index'
 
+import Home from './pages/Home';
 function App() {
   return (
     <div className="App">
      <Navbar/>
+     < Home/>
+     <Footer/>
     </div>
   );
 }
