@@ -1,13 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/navbar/Navbar';
-import Carousel from './components/carousel/Carousel';
+import{
+  Navbar,
+  Banner,
+  About,
+  Roadmap,
+  Features,
+  TopNfts,
+  Team,
+  Contact,
+  Footer
+} from './components/index'
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Carousel/>
+     <Navbar/>
     </div>
   );
 }
