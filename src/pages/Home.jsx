@@ -14,6 +14,11 @@ const Home = () => {
     <div className="home">
         <Banner/>
         <About/>
+        <Features/>
+        <TopNfts/>
+        <Roadmap/>
+        <Team/>
+        <Contact/>
     </div>
     </>
   )
