@@ -1,4 +1,4 @@
-import Navbar from "./Navbar/Navbar";
+import Navbar from "./navbar/Navbar";
 import Banner from "./Banner/Banner";
 import About from "./About/About";
 import Roadmap from "./Roadmap/Roadmap";
